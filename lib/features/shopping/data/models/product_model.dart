@@ -7,7 +7,7 @@ class ProductModel {
   String title;
   double price;
   String description;
-  Category category;
+  String category;
   String image;
   Rating rating;
 
@@ -20,4 +20,16 @@ class ProductModel {
     required this.image,
     required this.rating,
   });
+
+  factory ProductModel.fromJson(Map<String, dynamic> json) {
+    return ProductModel(
+      id: json['id'],
+      title: json['title'],
+      price: (json['price'] as num).toDouble(),
+      description: json['description'],
+      category: json['category'],
+      image: json['image'],
+      rating: Rating.fromJson(json['rating']),
+    );
+  }
 }
