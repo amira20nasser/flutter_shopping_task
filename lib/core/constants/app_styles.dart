@@ -2,8 +2,6 @@ import 'dart:developer';
 
 import 'package:flutter/material.dart';
 
-import '../../constants.dart';
-
 abstract class AppStyles {
   static textStyle18(BuildContext context) => TextStyle(
     fontSize: getResponsiveFontSize(context, baseFontSize: 18),
@@ -18,7 +16,6 @@ abstract class AppStyles {
   static textStyle30(BuildContext context) => TextStyle(
     fontSize: getResponsiveFontSize(context, baseFontSize: 30),
     fontWeight: FontWeight.w900,
-    fontFamily: kGtSectraFine,
     letterSpacing: 1.2,
   );
 
