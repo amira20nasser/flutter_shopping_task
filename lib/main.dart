@@ -1,9 +1,13 @@
 import 'package:flutter/material.dart';
 
 import 'core/constants/app_theme.dart';
+import 'core/utils/di.dart';
 import 'features/shopping/presentation/views/shopping_view.dart';
 
-void main() => runApp(const AmiraShoppingApp());
+void main() {
+  setupServiceLocator();
+  runApp(const AmiraShoppingApp());
+}
 
 class AmiraShoppingApp extends StatelessWidget {
   const AmiraShoppingApp({super.key});

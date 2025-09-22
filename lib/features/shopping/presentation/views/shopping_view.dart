@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
 
+import 'widgets/shopping_view_bloc_provider.dart';
 import 'widgets/shopping_view_body.dart';
 
 class ShoppingView extends StatelessWidget {
@@ -7,6 +8,8 @@ class ShoppingView extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-    return Scaffold(body: SafeArea(child: ShoppingViewBody()));
+    return ShoppingViewBlocProvider(
+      child: Scaffold(body: SafeArea(child: ShoppingViewBody())),
+    );
   }
 }

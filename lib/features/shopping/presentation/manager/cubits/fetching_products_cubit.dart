@@ -10,15 +10,15 @@ class FetchingProductsCubit extends Cubit<FetchingProductsState> {
 
   final ShoppingRepo repo;
 
-  Future<void> fetchFeaturedBooks() async {
+  Future<void> fetchProducts() async {
     emit(FetchingProductsLoading());
     var result = await repo.fetchProducts();
     result.fold(
       (failure) {
         emit(FetchingProductsFailure(failure.errMessage));
       },
-      (books) {
-        emit(FetchingProductsSuccess(books));
+      (products) {
+        emit(FetchingProductsSuccess(products));
       },
     );
   }
