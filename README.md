@@ -1,16 +1,41 @@
-# flutter_amira
+# Shopping Screen
 
-A new Flutter project. test project
+A simple Flutter Screen that displays a grid of products with prices, reviews, favorite buttons, and
+add-to-cart functionality.
+The app is responsive and works well across different screen sizes.
 
-## Getting Started
+## ✨ Features
 
-This project is a starting point for a Flutter application.
+- 📱 Responsive grid layout using GridView.builder
+- 🛒 Product cards with:
+    - Product image
+    - Title & description
+    - Price with discount display
+    - Review rating with stars
+    - Favorite (wishlist) button
+    - Add-to-cart button
 
-A few resources to get you started if this is your first Flutter project:
+- State management with Cubit - Provider (for favorites & products fetching)
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
+- 🔄 Fetch products dynamically (from API or repository layer)
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+## 📸 Screenshots
+
+| Grid Screen                             | Product Card                            |
+|-----------------------------------------|-----------------------------------------|
+| ![Grid](./screenshots/product_grid.png) | ![Card](./screenshots/product_card.png) |
+
+## 📂 Project Structure (MVVM + Clean Code Inspired)
+
+```bash 
+lib/
+│── core/                # Core utilities (constants, theme, utils)
+│── features/
+│   └── shopping/
+│       ├── data/        # Models, repositories
+│       ├── presentation/
+│       │   ├── cubit/   # Cubit/Bloc classes
+│       │   ├── screens/ # Screens
+│       │   └── widgets/ # Reusable widgets (ProductCard, etc.)
+│── main.dart            # Entry point
+```
