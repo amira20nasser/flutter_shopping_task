@@ -1,8 +1,8 @@
 import 'package:flutter/material.dart';
-import 'package:flutter_amira/core/constants/app_styles.dart';
 
 import '../../../../../core/constants/app_colors.dart';
 import '../../../../../core/constants/app_strings.dart';
+import '../../../../../core/constants/app_styles.dart';
 import '../../../data/models/product_model.dart';
 import 'added_removed_icon_change_notifier.dart';
 

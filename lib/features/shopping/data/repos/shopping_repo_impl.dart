@@ -2,10 +2,10 @@ import 'dart:developer';
 
 import 'package:dartz/dartz.dart';
 import 'package:dio/dio.dart';
-import 'package:flutter_amira/core/utils/dio_service.dart';
 
 import '../../../../core/constants/api_constants.dart';
 import '../../../../core/errors/failure.dart';
+import '../../../../core/utils/dio_service.dart';
 import '../models/product_model.dart';
 import 'shopping_repo.dart';
 

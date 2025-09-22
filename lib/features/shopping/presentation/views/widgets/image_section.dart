@@ -1,7 +1,7 @@
 import 'package:flutter/material.dart';
-import 'package:flutter_amira/core/constants/app_sizes.dart';
 
 import '../../../../../core/constants/app_colors.dart';
+import '../../../../../core/constants/app_sizes.dart';
 import 'favorite_icon_change_notifier.dart';
 
 class ImageIconSection extends StatelessWidget {
