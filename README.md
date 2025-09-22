@@ -22,8 +22,8 @@ The app is responsive and works well across different screen sizes.
 ## 📸 Screenshots
 <table>
   <tr>
-    <td><img src="./screenshots/product_grid.png" alt="Grid" width="250" height="500"/></td>
-    <td><img src="./screenshots/product_card.png" alt="Card" width="250" height="500"/></td>
+    <td><img src="./screenshots/product_grid.png" alt="Grid" width="150" height="300"/></td>
+    <td><img src="./screenshots/product_card.png" alt="Card" width="150" height="300"/></td>
   </tr>
 </table>
 
