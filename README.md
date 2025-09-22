@@ -38,7 +38,7 @@ lib/
 │       ├── data/        # Models, repositories
 │       ├── presentation/
 │       │   ├── cubit/   # Cubit/Bloc classes
-│       │   ├── screens/ # Screens
+│       │   ├── views/ # Screens
 │       │   └── widgets/ # Reusable widgets (ProductCard, etc.)
 │── main.dart            # Entry point
 ```
