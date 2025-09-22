@@ -13,5 +13,13 @@ class AppTheme {
     brightness: Brightness.light,
     scaffoldBackgroundColor: AppColors.background,
     colorScheme: ColorScheme.fromSeed(seedColor: AppColors.primary),
+    textTheme: const TextTheme(
+      bodyLarge: TextStyle(color: AppColors.textDark),
+      bodyMedium: TextStyle(color: AppColors.textDark),
+      bodySmall: TextStyle(color: AppColors.textDark),
+      titleLarge: TextStyle(color: AppColors.textDark),
+      titleMedium: TextStyle(color: AppColors.textDark),
+      titleSmall: TextStyle(color: AppColors.textDark),
+    ),
   );
 }

@@ -36,6 +36,8 @@ dependencies:
   cupertino_icons: ^1.0.8
   dio: ^5.9.0
   dartz: ^0.10.1
+  flutter_bloc: ^9.1.1
+  provider: ^6.1.5+1
 
 dev_dependencies:
   flutter_test:
@@ -82,8 +84,8 @@ flutter:
       #         style: italic
       #   - family: Trajan Pro
       fonts:
-        - asset: assets/fonts/Poppins-Regular.ttf
-        - asset: assets/fonts/Poppins-Bold.ttf
+        - asset: assets/fonts/poppins/Poppins-Regular.ttf
+        - asset: assets/fonts/poppins/Poppins-Bold.ttf
           weight: 700
   #
   # For details regarding fonts from package dependencies,

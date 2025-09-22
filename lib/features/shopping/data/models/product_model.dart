@@ -1,6 +1,6 @@
-import 'Rating.dart';
+import 'rating.dart';
 
-enum Category { ELECTRONICS, JEWELERY, MEN_S_CLOTHING, WOMEN_S_CLOTHING }
+// enum Category { ELECTRONICS, JEWELERY, MEN_S_CLOTHING, WOMEN_S_CLOTHING }
 
 class ProductModel {
   int id;
