@@ -20,10 +20,12 @@ The app is responsive and works well across different screen sizes.
 - 🔄 Fetch products dynamically (from API or repository layer)
 
 ## 📸 Screenshots
-
-| Grid Screen                             | Product Card                            |
-|-----------------------------------------|-----------------------------------------|
-| ![Grid](./screenshots/product_grid.png) | ![Card](./screenshots/product_card.png) |
+<table>
+  <tr>
+    <td><img src="./screenshots/product_grid.png" alt="Grid" width="250" height="500"/></td>
+    <td><img src="./screenshots/product_card.png" alt="Card" width="250" height="500"/></td>
+  </tr>
+</table>
 
 ## 📂 Project Structure (MVVM + Clean Code Inspired)
 
